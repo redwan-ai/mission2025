@@ -21,6 +21,7 @@
   .h1{
     border-left: 4px solid rgb(255, 89, 89);
     padding-left: 20px;
+    font-size: 36px;
   }
   span{
     color: rgb(255, 173, 90);
@@ -52,6 +53,7 @@
   }
 .mission{
   text-align: center;
+  font-size: 36px;
 }
 .my-missions{
   display: flex;
@@ -125,6 +127,24 @@ padding-top: 15px;
 .coding {
   margin-right: auto;
 }
+
+/*main-section-3*/
+.main-section-3>.h1{
+  border: none;
+  text-align: center;
+  margin: 50px 50px;
+}
+.main-section-3-div{
+  display: flex;
+  margin: 20px 50px 0 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
 
 
 
