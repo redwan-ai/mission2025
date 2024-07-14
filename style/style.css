@@ -140,6 +140,24 @@ padding-top: 15px;
   justify-content: center;
   align-items: center;
 }
+/*Footer Part*/
+footer{
+ padding: 20px 0;
+ margin: auto;
+  color: whitesmoke;
+  background-color: black;
+  text-align: center;
+}
+footer>h3{
+  font-size: 26px;
+}
+footer>p{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+
   @media screen and (max-width:576px) {
     /*header part*/
     .first-part{
@@ -149,7 +167,7 @@ padding-top: 15px;
     }
    
     .img1{
-      margin:-20px 60px;
+      margin:-20px 130px;
     }
     .first-part-div{
       margin-top: 40px;
@@ -201,6 +219,11 @@ padding-top: 15px;
 }
 .main-section-3-div{
   flex-direction: column;
+}
+footer{
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 }
  
