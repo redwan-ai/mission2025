@@ -140,14 +140,6 @@ padding-top: 15px;
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-
-
-
-
   @media screen and (max-width:576px) {
     /*header part*/
     .first-part{
@@ -207,6 +199,8 @@ padding-top: 15px;
 .btn-2{
   margin-bottom: 30px;
 }
- 
+.main-section-3-div{
+  flex-direction: column;
+}
 }
  
