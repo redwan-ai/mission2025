@@ -16,6 +16,7 @@
   .first-part-div{
     margin-top: 80px;
     margin-left: 100px;
+    word-wrap: normal;
   }
   span{
     color: rgb(255, 173, 90);
@@ -45,9 +46,16 @@
       flex-direction: column;
       margin: auto;
     }
-    
-    img{
-      margin:-20px 50px;
+   
+    .img1{
+      margin:-20px 60px;
+    }
+    .first-part-div{
+      margin-top: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
+      word-wrap: normal;
     }
   }
+  
  
