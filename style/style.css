@@ -93,8 +93,10 @@ padding-top: 15px;
  
  .main-section-2{
   display: flex;
+  justify-content: space-around;
   border: 1px solid white;
-  gap: 40px;
+  gap: 20px;
+  align-items: center;
 }
 .coding {
   margin-left: 100px;
@@ -115,9 +117,10 @@ padding-top: 15px;
 
 .main-section-2-1{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   margin-left: 100px;
   border: 1px solid white;
-  gap: 30px;
 } 
 .coding {
   margin-right: auto;
@@ -125,7 +128,7 @@ padding-top: 15px;
 
 
 
-  @media screen and (max-width:412px) {
+  @media screen and (max-width:576px) {
     /*header part*/
     .first-part{
       display: flex;
@@ -149,6 +152,8 @@ padding-top: 15px;
     .my-missions{
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
   }
   #id1,#id2,#id3{
     margin-top: 20px;
@@ -166,6 +171,9 @@ padding-top: 15px;
   flex-direction: column;
   margin-left: 20px;
  }
+ .new-class{
+  margin: 0 88px;
+ }
  .coding{
   margin: auto;
   height: 350px;
@@ -174,7 +182,10 @@ padding-top: 15px;
 .main-section-2-1{
   margin-top: 50px;
   flex-direction: column;
-  margin-left: 20px;;
+  margin-left: 20px;
+}
+.btn-2{
+  margin-bottom: 30px;
 }
  
 }
