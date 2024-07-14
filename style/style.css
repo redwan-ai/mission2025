@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+.yeseva-one {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  img{
+    margin-right: 100px;
+  }
+  .first-part{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+  }
+  .first-part-div{
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+  span{
+    color: rgb(255, 173, 90);
+  }
