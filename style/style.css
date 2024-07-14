@@ -18,12 +18,17 @@
     margin-left: 100px;
     word-wrap: normal;
   }
+  .h1{
+    border-left: 4px solid rgb(255, 89, 89);
+    padding-left: 20px;
+  }
   span{
     color: rgb(255, 173, 90);
   }
   .btn-1{
     margin-top: 20px;
     height: 40px;
+    font-weight: 600;
     width: 140px;
     background-color: #FF5959;
     color: white;
@@ -34,6 +39,7 @@
     margin-top: 25px;
     font-size: 18px;
     font-weight:lighter;
+    word-wrap: normal;
   }
   .h6-1{
     margin-top: 45px;
@@ -42,7 +48,7 @@
   }
   /*Main Section Starts*/
   .main-section-1{
-    margin: 0 100px;
+    margin: 50px 100px;
   }
 .mission{
   text-align: center;
@@ -82,6 +88,43 @@
 font-weight:bolder;
 padding-top: 15px;
 }
+
+  /*Main Section 2*/
+ 
+ .main-section-2{
+  display: flex;
+  border: 1px solid white;
+  gap: 40px;
+}
+.coding {
+  margin-left: 100px;
+}
+.main-section-2-h1{
+  font-size: 36px;
+}
+.btn-2{
+  margin-top: 20px;
+    height: 40px;
+    width: 300px;
+    background-color: #FF5959;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.main-section-2-1{
+  display: flex;
+  margin-left: 100px;
+  border: 1px solid white;
+  gap: 30px;
+} 
+.coding {
+  margin-right: auto;
+}
+
+
+
   @media screen and (max-width:412px) {
     /*header part*/
     .first-part{
@@ -101,7 +144,7 @@ padding-top: 15px;
     }
     /*Section-1*/
     .main-section-1{
-      margin: 100px 15px 0 15px;
+      margin: 100px 10px 0 10px;
     }
     .my-missions{
       display: flex;
@@ -113,10 +156,26 @@ padding-top: 15px;
     height: 326px;
   width: 280px;
   }
-  .img2{
-    height:141px
+  .img21{
+    height:141px;
      width:141px;
   }
+/*Section-2*/
+ .main-section-2{
+  margin-top: 50px;
+  flex-direction: column;
+  margin-left: 20px;
+ }
+ .coding{
+  margin: auto;
+  height: 350px;
+  width: 350px;
+ }
+.main-section-2-1{
+  margin-top: 50px;
+  flex-direction: column;
+  margin-left: 20px;;
+}
  
 }
  
