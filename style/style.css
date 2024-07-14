@@ -82,23 +82,8 @@
 font-weight:bolder;
 padding-top: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   @media screen and (max-width:412px) {
+    /*header part*/
     .first-part{
       display: flex;
       flex-direction: column;
@@ -114,6 +99,24 @@ padding-top: 15px;
       margin-right: 40px;
       word-wrap: normal;
     }
+    /*Section-1*/
+    .main-section-1{
+      margin: 0 15px;
+    }
+    .my-missions{
+      display: flex;
+      flex-direction: column;
   }
-  
+  #id1,#id2,#id3{
+    margin-top: 20px;
+    word-wrap: normal;
+    height: 326px;
+  width: 280px;
+  }
+  .img2{
+    height:141px
+     width:141px;
+  }
+ 
+}
  
