@@ -40,6 +40,64 @@
     font-size: 16px;
     font-weight: 100;
   }
+  /*Main Section Starts*/
+  .main-section-1{
+    margin: 0 100px;
+  }
+.mission{
+  text-align: center;
+}
+.my-missions{
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  gap: 20px;
+}
+#id1{
+  background-color: #4f9da635;
+  border-radius: 26px;
+  word-wrap: normal;
+  padding: 20px 40px 0 40px;
+  height: 376px;
+  width: 360px;
+}
+#id2{
+  background-color: #ff595930;
+  border-radius: 26px;
+  word-wrap: normal;
+  padding: 20px 40px 0 40px;
+  height: 376px;
+  width: 360px;
+}
+#id3{
+  background-color: #fff4d693;
+  border-radius: 26px;
+  word-wrap: normal;
+  padding: 20px 40px 0 40px;
+  height: 376px;
+  width: 360px;
+}
+.h31{
+  font-size: 24px;
+font-weight:bolder;
+padding-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media screen and (max-width:412px) {
     .first-part{
       display: flex;
